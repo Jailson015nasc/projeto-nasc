@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+/* inicio-cabecalho */
+header{
+    background-color: #2343B4;
+    height: 100px;
+}
+.img-center-cabecalho{
+    text-align: center;
+}
+/* fim-cabecalho */
+
+/* inicio-MAIN */
+.caixa-principal{
+    margin-top: 40px;
+}
+
+.img-center-1{
+   text-align: center;
+
+}
+.img-center-2{
+   text-align: center;
+   margin-top: 20px;
+}
+
+.img-times{
+    width: 700px;
+    height: 430px;
+    box-shadow: 3px 3px 1px 0px #fff;
+}
+.btn-link-time{
+    text-align: center;
+}
+
+.btnTimes{
+    background-color: transparent;
+    background-color: #CC0B0B;
+    border-color: #f2f2f3;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+    font-size: 20pt;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+    transition: all .7s ease-out;
+}
+
+.btnJogadores{
+    background-color: transparent;
+    background-color: #CC0B0B;
+    border-color: #f2f2f3;
+    color: #fff;
+    width: 400px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20pt;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+    transition: all .7s ease-out;
+}
+
+.img-jogadores{
+    width: 700px;
+    height: 430px;
+    box-shadow: 3px 3px 1px 0px #fff;
+}
+.btn-link-jogadores{
+    text-align: center;
+}
+/* fim-MAIN */

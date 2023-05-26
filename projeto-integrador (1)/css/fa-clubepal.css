@@ -1,0 +1,176 @@
+:root{
+    --black: #000;
+    --black-700: rgba(0, 0, 0, 0.25);
+    --black-800: rgba(0, 0, 0, 0.22);
+
+    --green-300: #119705;
+    --green-200: #10c400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+header{
+    background: -webkit-linear-gradient(to right, var(--black-700), var(--green-300));
+    background: linear-gradient(to right, var(--black-800), var(--green-200));
+    height: 100px;
+}
+
+.caixa-cabecalho{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+
+    color: white;
+
+    margin-top: 25px;
+}
+
+.historia-time{
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.caixa-2{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 30px;
+}
+.img-1{
+    border-radius: 10px;
+}
+.texto-caixa1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: start;
+    margin-top: 0px;
+    padding: 5px;
+    width: 500px;
+    background-color: black;
+}
+
+
+.ult-noticias{
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.caixa-3{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 40px;
+}
+.img-2{
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.texto-caixa3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: start;
+    margin-top: 20px;
+    padding: 5px;
+    width: 500px;
+    background-color: black;
+}
+
+
+.t-tacas{
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.caixa-tacas{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 30px;
+}
+.titulos-palmeiras{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: start;
+    margin-top: 20px;
+    padding: 5px;
+    width: 500px;
+    background-color: black;
+}
+.img-3{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.m-carterinha{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+    margin-top: 40px;
+}
+
+.caixa-principal-IB{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 40px;
+}
+
+.caixa-img-center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+
+#opcao1, #opcao2{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.btn{
+    text-align: center;
+}
+
+#botao{
+    background: -webkit-linear-gradient(to right, var(--black-700), var(--green-300));
+    background: linear-gradient(to right, var(--black-800), var(--green-200));
+    border-color: #f2f2f3;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all .7s ease-out;
+}
+

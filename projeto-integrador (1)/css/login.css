@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+header{
+    background-color: #2343B4;
+    height: 100px;
+}
+
+.img-center{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.card {
+    background-color: #2343B4;
+    width: 500px;
+    height: 440px;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #fff;
+}
+
+.login{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  label{
+    font-family: sans-serif;
+  }
+  
+  .form-control input {
+    border: 2px solid #eaebf0;
+    border-radius: 5px;
+    outline: 0;
+  
+    display: block;
+  
+    font-size: 14px;
+  
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .form-control.img-success input {
+    border: 3px solid #4ECA64;
+  }
+  
+  .form-control.img-error input {
+    border: 3px solid #DB5A5A;
+  }
+  
+  .form-control.error i.img-error {
+    visibility: visible;
+  }
+  
+  .form-control.success i.img-success {
+    visibility: visible;
+  }
+  
+  .form-control.error small{
+    color: #DB5A5A;
+    visibility: visible;
+  }
+  
+  .form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+  }
+  
+  .form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 2px;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+
+button {
+    background-color: #6C63FF;
+    border-radius: 5px;
+    border: 3px solid #4ECA64;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 40%;
+    cursor: pointer;
+}
+  
+.caixa-center{
+    display: flex;
+    justify-content: center;
+}
+  
+button:hover {
+      background-color: #43C32E;
+      transition: 0.4s;
+}
+  
+.caixa-center{
+    display: flex;
+    justify-content: center;
+}
+  
+.hr{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 197px;
+    height: 2px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+  
+p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14pt;
+    text-align: center;
+}
+  
+a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+  
+a:hover{
+    color: #43C32E;
+    text-decoration: underline;
+}

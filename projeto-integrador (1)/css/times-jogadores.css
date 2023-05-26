@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+
+header{
+    background-color: #2343B4;
+    height: 100px;
+}
+.img-center-cabecalho{
+    text-align: center;
+}
+
+.caixa-principal{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 40px;
+}
+.img-center-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img-center-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img-center-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    background-color: #CC0B0B;
+    border-color: #f2f2f3;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20pt;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+    transition: all .7s ease-out;
+}

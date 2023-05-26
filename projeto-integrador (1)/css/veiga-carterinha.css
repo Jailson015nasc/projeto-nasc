@@ -1,0 +1,120 @@
+:root{
+    --black: #000;
+    --black-700: rgba(0, 0, 0, 0.25);
+    --black-800: rgba(0, 0, 0, 0.22);
+
+    --green-300: #119705;
+    --green-200: #10c400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+header{
+    background: -webkit-linear-gradient(to right, var(--black-700), var(--green-300));
+    background: linear-gradient(to right, var(--black-800), var(--green-200));
+    height: 100px;
+}
+
+.img-center{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.caixa-red{
+    background-color: #17C308;
+    width: 880px;
+    height: 550px;
+    padding: 36px;
+    border-radius: 15px;
+}
+
+#caixa-imagem-url{
+    background-image: url(../svg/veiga-cartao-contraste.svg);
+    background-size: cover;
+    width: 50rem;
+    height: 30rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+
+.caixa-formulario{
+    margin-top: 8rem;
+    margin-right: 10rem;
+}
+
+.img-usuario{
+   margin-top: 5rem;
+   margin-left: 3rem;
+}
+.img-flup img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#idolo{
+    width: 204px;
+}
+.label-input input{
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+    margin-bottom: 1rem;
+}
+
+.label-input label{
+    color: #fff;
+    font-family: sans-serif;
+    padding: 0;
+    font-size: 20pt;
+}
+.btn{
+        text-align: center;
+}
+    
+#btnConcluir{
+    background-color: transparent;
+    background-color: #17C308;
+    border-color: #f2f2f3;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 3.5rem;
+    font-size: 20pt;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+    transition: all .7s ease-out;
+}
+
+#mensagem{
+        color: #fff;
+        font-size: 16pt;
+        font-family: sans-serif;
+        margin-top: 20px; 
+}
+
+
